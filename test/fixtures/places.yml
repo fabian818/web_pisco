@@ -5,9 +5,11 @@ one:
   reference: MyText
   valoration: 1
   best_product_id: 1
+  place_type_id: 1
 
 two:
   name: MyString
   reference: MyText
   valoration: 1
   best_product_id: 1
+  place_type_id: 1

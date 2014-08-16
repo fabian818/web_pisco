@@ -5,6 +5,7 @@ class CreatePlaces < ActiveRecord::Migration
       t.text :reference
       t.integer :valoration
       t.integer :best_product_id
+      t.integer :place_type_id
 
       t.timestamps
     end
