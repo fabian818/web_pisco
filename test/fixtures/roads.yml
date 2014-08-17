@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  initial: MyString
+  final: MyString
+  price: 1.5
+  time_minuts: 1
+
+two:
+  initial: MyString
+  final: MyString
+  price: 1.5
+  time_minuts: 1
