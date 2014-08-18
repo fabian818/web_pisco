@@ -1,0 +1,7 @@
+<h1><%= @winery.name %></h1>
+
+<h4><p>
+	<%=@winery.reference %>
+</p></h4>
+
+<h5><%= link_to 'Productos', list_path(winery: @winery.name) %></h5>

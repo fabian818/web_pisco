@@ -1,2 +1,10 @@
 <h1>Wineries#index</h1>
 <p>Find me in app/views/wineries/index.html.erb</p>
+
+<ul>
+	<% @wineries.each do |w| %>
+		<li>
+		<%= link_to w.name, winery_path(name: w.name) %>
+		</li>
+	<% end %>
+</ul>

@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
+ 
+
   get "/bodegas" => "wineries#index", as: :wineries
   get "/" => "welcome#index", as: :index
+  get "/bodegas/:name" => "wineries#show", as: :winery
+  get "/bodegas/:winery/:product" => "products#show", as: :product
+  get "/bodega/:winery/productos" => "products#index", as: :list
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

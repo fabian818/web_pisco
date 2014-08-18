@@ -3,9 +3,11 @@
 one:
   place_id: 1
   name: MyString
+  price: 1.5
   description: MyText
 
 two:
   place_id: 1
   name: MyString
+  price: 1.5
   description: MyText
