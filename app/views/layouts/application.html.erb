@@ -8,6 +8,19 @@
 </head>
 <body>
 
+
+<div id="user_nav">
+  <% if current_user %>
+    Logueado como : <strong><%= current_user.email %></strong>!
+    <%= link_to "Sign out", signout_path, id: "sign_out" %>
+  <% else %>
+    <%= link_to "/auth/facebook", id: "sign_in" do %>
+	  <%= image_tag('loginfb.png') %>
+	<% end  %>
+  <% end %>
+</div>
+
+
 <%= yield %>
 
 </body>
